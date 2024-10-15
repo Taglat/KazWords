@@ -7,3 +7,5 @@ npx create-expo-app --template blank-typescript
 ```
 npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
 ```
+
+### [Табы Expo Router](https://docs.expo.dev/router/advanced/tabs/)
