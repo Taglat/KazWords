@@ -17,3 +17,5 @@ npm i clsx
 ```
 
 ### [FlexBox на React Native](https://reactnative.dev/docs/flexbox)
+
+### [Modals in Expo Router](https://docs.expo.dev/router/advanced/modals/)
