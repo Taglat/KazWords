@@ -15,3 +15,5 @@ npx expo install expo-router react-native-safe-area-context react-native-screens
 npx expo install react-native-svg
 npm i clsx
 ```
+
+### [FlexBox на React Native](https://reactnative.dev/docs/flexbox)

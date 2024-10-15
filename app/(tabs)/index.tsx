@@ -1,10 +1,11 @@
-import { View, Text } from 'react-native'
+import { Text } from 'react-native'
+import ScreenLayout from '../../components/layout/screen-layout'
 
 const Learn = () => {
   return (
-    <View>
+    <ScreenLayout>
       <Text>Learn</Text>
-    </View>
+    </ScreenLayout>
   )
 }
 

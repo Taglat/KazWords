@@ -1,10 +1,11 @@
-import { View, Text } from 'react-native'
+import { Text } from 'react-native'
+import ScreenLayout from '../../components/layout/screen-layout'
 
 const Sets = () => {
   return (
-    <View>
+    <ScreenLayout>
       <Text>Sets</Text>
-    </View>
+    </ScreenLayout>
   )
 }
 
