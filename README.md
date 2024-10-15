@@ -9,3 +9,9 @@ npx expo install expo-router react-native-safe-area-context react-native-screens
 ```
 
 ### [Табы Expo Router](https://docs.expo.dev/router/advanced/tabs/)
+
+### [Svg Expo](https://docs.expo.dev/versions/latest/sdk/svg/)
+```
+npx expo install react-native-svg
+npm i clsx
+```
