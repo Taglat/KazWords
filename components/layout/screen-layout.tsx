@@ -1,9 +1,14 @@
-import { FC, PropsWithChildren } from "react";
+import { FC, PropsWithChildren, ReactNode } from "react";
 import { ScrollView, StyleSheet, View } from "react-native";
 
-const ScreenLayout: FC<PropsWithChildren> = ({ children }) => {
+interface ScreenLayoutProps {
+  noScrollableChildren?: ReactNode;
+}
+
+const ScreenLayout: FC<PropsWithChildren<ScreenLayoutProps>> = ({ children, noScrollableChildren }) => {
   return (
     <View style={[styles.container]}>
+      {noScrollableChildren}
       <ScrollView showsVerticalScrollIndicator={false}>
         {children}
       </ScrollView>
