@@ -1,7 +1,7 @@
 import Svg, { Circle, Rect } from 'react-native-svg';
-import { IconProps } from './icon-props';
+import { NavIconProps } from './icon-props';
 
-const SvgProfile: React.FC<IconProps> = ({
+const SvgProfile: React.FC<NavIconProps> = ({
   focused,
   height = 30,
   width = 30,
