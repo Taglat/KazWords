@@ -28,7 +28,7 @@ const Learn = () => {
   const router = useRouter();
 
   return (
-    <ScreenLayout>
+    <ScreenLayout noScrollableChildren={
       <View style={styles.cardContainer}>
         <Link href={stats.toLearn.link}>
           <StatisticCard
@@ -55,6 +55,8 @@ const Learn = () => {
           />
         </Link>
       </View>
+    }>
+      
     </ScreenLayout>
   )
 }
