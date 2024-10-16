@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { StyleSheet, Text, TouchableOpacity } from "react-native";
+import { Pressable, StyleSheet, Text } from "react-native";
 
 interface StatisticCardProps {
   count: number;
@@ -8,11 +8,14 @@ interface StatisticCardProps {
   onPress: () => void;
 }
 
-export const StatisticCard:FC<StatisticCardProps> = ({ count, label, color, onPress }) => (
-  <TouchableOpacity style={[styles.card, { borderColor: color }]} onPress={onPress}>
+export const StatisticCard: FC<StatisticCardProps> = ({ count, label, color, onPress }) => (
+  <Pressable
+    style={[styles.card, { borderColor: color }]}
+    onPress={onPress}
+  >
     <Text style={[styles.count, { color }]}>{count}</Text>
     <Text style={{ color }}>{label}</Text>
-  </TouchableOpacity>
+  </Pressable>
 );
 
 const styles = StyleSheet.create({
